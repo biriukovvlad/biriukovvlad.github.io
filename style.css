@@ -27,7 +27,6 @@ table{
 }
 th,td{
 	border: 2px solid black;
-	border-radius: 10px;
 	color: indigo;
 }
 caption{
@@ -46,6 +45,7 @@ th{
 	text-align: center;
 }
 .menu{
+	position: relative;
 }
 .menu a{
 	font-family: sans-serif;
@@ -58,6 +58,7 @@ th{
 }
 .menu li{
 	display: inline;
+
 }
 .Answer{
 	background-color: thistle;
@@ -66,4 +67,37 @@ th{
 	color: white;
 	background-color:#5757a0;
 	border-color: black;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: #232b36;
+	height: 100vh;
+	position: relative;
+}
+.clip{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.space007{
+	background: url(space007.jpg) no-repeat center;
+	background-size: cover;
+}
+.space1337{
+	background: url(space1337.jpg) no-repeat center;
+	background-size: cover;
+	transition: .5s;
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 100%);
+}
+.space1337:hover{
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.space007:hover ~ .space1337{
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+.menu_po_centru{
+	margin-left: 8%;
 }
