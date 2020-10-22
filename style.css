@@ -86,7 +86,7 @@ header{
 	background: url(https://pristor.ru/wp-content/uploads/2018/02/%D0%9A%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%81%D0%B0-%D0%B8-%D0%B7%D0%B2%D0%B5%D0%B7%D0%B4-%D0%BD%D0%B0-%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9-%D1%81%D1%82%D0%BE%D0%BB-%D0%BF%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B0-%E2%84%964-9.jpg) no-repeat center;
 	background-size: cover;
 }
-/*.space1337{
+.space1337{
 	background: url(https://storge.pic2.me/cm/3840x2160/961/590cd031cb6fe.jpg) no-repeat center;
 	background-size: cover;
 	transition: .5s;
@@ -98,7 +98,6 @@ header{
 .space007:hover ~ .space1337{
 	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
-*/
 h3{
 	position: relative;
 }
